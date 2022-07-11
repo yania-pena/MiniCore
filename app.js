@@ -32,7 +32,7 @@ app.use(session({
 }))
 app.use(flash());
 //app.use(expressValidator());
-app.use('/index',indexRouter);
+app.use('',indexRouter);
 app.use('/usuarios',usuarioRouter);
 app.use('/pases',pasesRouter);
 app.use('/tipos',tiposRouter);
